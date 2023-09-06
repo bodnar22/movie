@@ -5,37 +5,68 @@
 
 <div class="left-ads-display col-lg-9">
     <div class="row">
-        {% for movie in movie_list %}
-        <div class="col-md-4 product-men">
-            <div class="product-shoe-info editContent text-center mt-lg-4">
-                <div class="men-thumb-item">
-                    <img src="{{ movie.poster.url }}" class="img-fluid" alt="">
-                </div>
-                <div class="">
-                    <h4 class="">
-                        <a href="{{ movie.get_absolute_url }}" class="editContent">
-                            {{ movie.title }}
-                        </a>
-                    </h4>
-
-                    <div class="product_price">
-                        <div class="grid-price">
-                            <span class="money editContent">{{ movie.tagline }}</span>
-                        </div>
-                    </div>
-                    <ul class="stars">
-                        <li><a href="#"><span class="fa fa-star" aria-hidden="true"></span></a></li>
-                        <li><a href="#"><span class="fa fa-star" aria-hidden="true"></span></a></li>
-                        <li><a href="#"><span class="fa fa-star-half-o" aria-hidden="true"></span></a>
-                        </li>
-                        <li><a href="#"><span class="fa fa-star-half-o" aria-hidden="true"></span></a>
-                        </li>
-                        <li><a href="#"><span class="fa fa-star-o" aria-hidden="true"></span></a></li>
-                    </ul>
-                </div>
-            </div>
+        <div>
+            <h1>Наші переваги:</h1>
+            <h3>- Торгові сигнали від досвідчених трейдерів</h3>
+            <h3>- Вічний доступ в закриту спільноту</h3>
+            <h3>- Поради по довгостроковій економії на комісії</h3>
+            <h3>- Тільки корисні новини галузі</h3>
+            <h3>- Тестнети перевірені SEC (Комісія по цінним паперам та біржам США)</h3>
+            <h3>- Підтримка менеджера та пояснення всіх тонкощів </h3>
         </div>
-        {% endfor %}
+        <br>
+        <div class="row">
+            <br></br>
+            <form>
+<!--                <button style="margin-left: 300px;" class="btn btn-success" type="button" id="buy" autofocus>Купити доступ</button>-->
+                <a href="https://t.me/+5OxM_bkiCIxkOTAy" class="link" id="link" style="margin-left: 320px;
+        background: green;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        font-family: Verdana;
+        border-radius: 10px;" target="_blank">Купити доступ</a>
+            </form>
+        </div>
+        <h4 style="color: blue;">Тільки для перших 500 підписників <s>74,99</s> 49,99 </h4>
+        <br>
+        <div class="png">
+            <img src="https://d7-invdn-com.investing.com/content/picc700814a38b7cbd30a1d152a658a4d9f.png" style="width:700px;" >
+        </div>
+<!--<div class="row">-->
+<!--    <button class="btn btn-success" type="button">Купити доступ</button>-->
+<!--</div>-->
+<!--        {% for movie in movie_list %}-->
+<!--        <div class="col-md-4 product-men">-->
+<!--            <div class="product-shoe-info editContent text-center mt-lg-4">-->
+<!--                <div class="men-thumb-item">-->
+<!--                    <img src="{{ movie.poster.url }}" class="img-fluid" alt="">-->
+<!--                </div>-->
+<!--                <div class="">-->
+<!--                    <h4 class="">-->
+<!--                        <a href="{{ movie.get_absolute_url }}" class="editContent">-->
+<!--                            {{ movie.title }}-->
+<!--                        </a>-->
+<!--                    </h4>-->
+
+<!--                    <div class="product_price">-->
+<!--                        <div class="grid-price">-->
+<!--                            <span class="money editContent">{{ movie.tagline }}</span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <ul class="stars">-->
+<!--                        <li><a href="#"><span class="fa fa-star" aria-hidden="true"></span></a></li>-->
+<!--                        <li><a href="#"><span class="fa fa-star" aria-hidden="true"></span></a></li>-->
+<!--                        <li><a href="#"><span class="fa fa-star-half-o" aria-hidden="true"></span></a>-->
+<!--                        </li>-->
+<!--                        <li><a href="#"><span class="fa fa-star-half-o" aria-hidden="true"></span></a>-->
+<!--                        </li>-->
+<!--                        <li><a href="#"><span class="fa fa-star-o" aria-hidden="true"></span></a></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        {% endfor %}-->
     </div>
     <div class="grid-img-right mt-4 text-right bg bg-1">
         {% include 'include/pagination.html'%}

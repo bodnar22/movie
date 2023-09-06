@@ -6,12 +6,12 @@
                     <a href="index.html" class="editContent">
                                 <span class="fa" aria-hidden="true"
                                       style="outline: none; cursor: inherit;">
-                                    Django School
+                                    About features from scratch
                                 </span>
                     </a>
                 </h2>
                 <p class="editContent" style="outline: none; cursor: inherit;">
-                    Сайт создан по пошаговому руководству с ютуб канала Django School
+                    Сайт створений для фінансового розвитку
                 </p>
                 <h4 class="sub-con-fo ad-info my-4 editContent"
                     style="outline: none; cursor: inherit;">Catch on Social</h4>
@@ -55,6 +55,7 @@
                         subscribing to our mailing list you will always get latest news and
                         updates from us.</p>
                     <form action="#" method="post" class="w3layouts-newsletter">
+                        {% csrf_token %}
                         <input type="email" name="Email" class="editContent"
                                placeholder="Enter your email..." required=""
                                style="outline: none; cursor: inherit;">
@@ -67,19 +68,19 @@
                 <div class="row mt-lg-4 bottom-w3layouts-sec-nav mx-0">
                     <div class="col-md-4 footer-grid_section_w3layouts">
                         <h3 class="footer-title text-uppercase editContent mb-lg-4 mb-3"
-                            style="outline: none; cursor: inherit;">Разделы</h3>
+                            style="outline: none; cursor: inherit;">Розділи</h3>
                         <ul class="list-unstyled w3layouts-icons">
                             <li>
                                 <a href="index.html" class="editContent"
-                                   style="outline: none; cursor: inherit;">Главная</a>
+                                   style="outline: none; cursor: inherit;">Головна</a>
                             </li>
                             <li>
                                 <a href="about.html" class="editContent"
-                                   style="outline: none; cursor: inherit;">Категории</a>
+                                   style="outline: none; cursor: inherit;">Категорії</a>
                             </li>
                             <li>
                                 <a href="contact.html" class="editContent"
-                                   style="outline: none; cursor: inherit;">Контакты</a>
+                                   style="outline: none; cursor: inherit;">Контакти</a>
                             </li>
                         </ul>
                     </div>
@@ -116,7 +117,7 @@
                     </div>
                     <div class="col-md-4 footer-grid_section_w3layouts my-md-0 my-5">
                         <h3 class="footer-title text-uppercase text-wh mb-lg-4 mb-3 editContent"
-                            style="outline: none; cursor: inherit;">Contact Info</h3>
+                            style="outline: none; cursor: inherit;">ADMIN CONTACTS</h3>
                         <div class="contact-info">
                             <div class="footer-address-inf my-4">
                                 <h4 class="ad-info mb-2 editContent"
@@ -128,7 +129,7 @@
                                 <h4 class="ad-info mb-2 editContent"
                                     style="outline: none; cursor: inherit;">Location</h4>
                                 <p class="editContent" style="outline: none; cursor: inherit;">
-                                    New York City</p>
+                                    Ukraine</p>
                             </div>
                         </div>
                     </div>
@@ -144,8 +145,8 @@
 <div class="cpy-right py-3">
     <div class="container">
         <div class="row">
-            <p class="col-md-10 text-left">© 2019 DjangoMovie. All rights reserved | Design by
-                <a href="https://djangochannel.com"> DJANGO SCHOOL.</a>
+            <p class="col-md-10 text-left">© 2023 FeatureScan. All rights reserved | Design and Backend by
+                <a href="https://t.me/DarkSolver"> DarkSolver</a>
             </p>
             <!-- move top icon -->
             <a href="#home" class="move-top text-right col-md-2"><span

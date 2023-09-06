@@ -88,7 +88,7 @@ header {
     display: none;
 }
 
-/* Giving a background-color to the nav container. */
+/* Giving a background-color to the nav. */
 
 nav {
     margin: 0;
@@ -392,7 +392,7 @@ li > a:only-child:after {
     -ms-background-size: cover;
     background-size: cover;
     position: relative;
-    min-height: 50em;
+    max-height: 20px;
 }
 
 
@@ -439,13 +439,13 @@ li > a:only-child:after {
 .banner-info h3 {
     font-size: 3.5em;
     letter-spacing: 2px;
-    color: #fff;
+    color: gold;
     text-transform: uppercase;
     text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
 }
 
-.banner-info p {
-    color: #fff;
+.banner-info h4 {
+    color: silver;
     font-size: 0.8em;
     letter-spacing: 2px;
     font-weight: 400;
@@ -1398,6 +1398,22 @@ a.move-top span {
     .left-ads-display {
         margin-top: 2em;
     }
+
+    button.btn btn-success {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #link {
+        margin-left: 300px;
+        background: green;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-family: Verdana;
+        border-radius: 10px;
+    }
+
+
 }
 
 /*** Responsive Menu For Smaller Device ***/
